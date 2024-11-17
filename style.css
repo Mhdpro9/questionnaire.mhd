@@ -102,15 +102,16 @@ button.btn:hover {
     background-color: #0056b3;
 }
 
-/* Pied de page */
+/* Pied de page ajusté */
 footer {
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
-    position: fixed;
-    width: 100%;
     bottom: 0;
+    width: 100%;
+    position: relative;  /* Modifié de "fixed" à "relative" */
+    margin-top: 20px; /* Ajouter un peu de marge pour séparer le contenu */
 }
 
 footer p {
